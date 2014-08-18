@@ -1,0 +1,20 @@
+{
+    "description" : "Returns a random number between the range values provided. Requires Python",
+    "icon" : "favicon.png",
+    "command" : "python rand.py $(pollInterval) $(bottomRange) $(topRange)",
+    "metrics" : ["LF_PYRand"],
+    "paramSchema" : [
+        {
+            "title" : "bottomRange",
+            "description" : "Lower bound for the random number",
+            "type" : "integer",
+            
+        }
+        {
+            "title" : "topRange",
+            "description" : "Upper bound for the random number",
+            "type" : "integer",
+            
+        }
+    ]
+}
