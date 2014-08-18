@@ -7,13 +7,13 @@
         {
             "title" : "bottomRange",
             "description" : "Lower bound for the random number",
-            "type" : "integer",
+            "type" : "integer"
             
         }
         {
             "title" : "topRange",
             "description" : "Upper bound for the random number",
-            "type" : "integer",
+            "type" : "integer"
             
         }
     ]
