@@ -8,6 +8,6 @@ hostname=socket.gethostname()
 def poll():
 	# Select an even number in 100 <= number < 1000
 	print "LF_PYRand1 ", random.randrange(100, 1000, 2), hostname
-	threading.Timer(1,poll).start()
+	#threading.Timer(1,poll).start()
  
 poll()
