@@ -2,7 +2,7 @@
     "description" : "Returns a random number between the range values provided. Requires Python",
     "icon" : "favicon.png",
     "command" : "python rand.py $(pollInterval) $(bottomRange) $(topRange)",
-    "metrics" : ["LF_PYRand"],
+    "metrics" : ["LF_PYRand1"],
     "paramSchema" : [
         {
             "title" : "bottomRange",
