@@ -9,7 +9,7 @@
             "description" : "Lower bound for the random number",
             "type" : "integer"
             
-        }
+        },
         {
             "title" : "topRange",
             "description" : "Upper bound for the random number",
