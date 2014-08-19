@@ -8,6 +8,6 @@ This will never be merged into the main Boundary plugins system, so add to your 
 
 $ curl https://premium-api.boundary.com/v1/plugins/private/myplugin/myusername/mypluginrepo \
 -X PUT \
--u <email>:<api-token>
+-u < email >:< api-token>
 
 All features used are documented here: http://premium-documentation.boundary.com/plugins
