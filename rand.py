@@ -5,9 +5,17 @@ import sys
 import socket
 
 hostname=socket.gethostname()
+lowRange=int(sys.argv[1])
+highRange=int(sys.argv[2])
+
 def poll():
-	# Select an even number in 100 <= number < 1000
-	print "LF_PYRand1 ", random.randrange(100, 1000, 2), hostname
+	# Select an even number between user selected range
+	print "LF_PYRand1 ", random.randrange(lowRange, highRange, 2), hostname
 	#threading.Timer(1,poll).start()
  
 poll()
+
+
+
+
+
